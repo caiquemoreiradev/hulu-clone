@@ -1,0 +1,29 @@
+.nav__container {
+    display: flex;
+    color: #FFF;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.nav__container::-webkit-scrollbar {
+    display: none;
+}
+
+.nav__container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.nav__container h2 {
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.nav__container h2:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}

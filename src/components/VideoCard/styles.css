@@ -1,0 +1,46 @@
+.videoCard__container {
+    height: 300px;
+    width: 400px;
+    color: #FFF;
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: transform 100ms ease-out;
+}
+
+.videoCard__container:hover {
+    transform: scale(1.09);
+}
+
+.videoCard__container img {
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.videoCard__container h2 {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+div .videoCard__infos {
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div .videoCard__stats {
+    display: none;
+}
+
+.videoCard__stats p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.videoCard__container:hover .videoCard__stats {
+    display: flex;
+    align-items: center;
+}
